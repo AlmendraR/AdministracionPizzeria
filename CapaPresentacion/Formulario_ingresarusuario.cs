@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace Administracion_pizzeria
+namespace AdministracionPizzeria.CapaPresentacion
 {
     public partial class Formulario_ingresarusuario : Form
     {

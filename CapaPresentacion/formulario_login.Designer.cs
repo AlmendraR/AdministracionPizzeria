@@ -1,5 +1,5 @@
 ﻿
-namespace Administracion_pizzeria
+namespace AdministracionPizzeria.CapaPresentacion
 {
     partial class formulario_login
     {

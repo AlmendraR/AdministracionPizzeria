@@ -1,5 +1,5 @@
 ﻿
-namespace Administracion_pizzeria
+namespace AdministracionPizzeria.CapaPresentacion
 {
     partial class Form2
     {
@@ -113,7 +113,7 @@ namespace Administracion_pizzeria
             this.panel1.Controls.Add(this.label2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(917, 49);
             this.panel1.TabIndex = 0;
@@ -121,7 +121,7 @@ namespace Administracion_pizzeria
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(356, 11);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(24, 22);
             this.button2.TabIndex = 2;
@@ -158,7 +158,7 @@ namespace Administracion_pizzeria
             this.panel2.Controls.Add(this.button1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 590);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(917, 49);
             this.panel2.TabIndex = 2;
@@ -171,7 +171,7 @@ namespace Administracion_pizzeria
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(741, 7);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(160, 37);
             this.button1.TabIndex = 0;
@@ -183,7 +183,7 @@ namespace Administracion_pizzeria
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(164)))), ((int)(((byte)(66)))));
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 49);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(53, 541);
             this.panel3.TabIndex = 3;
@@ -193,7 +193,7 @@ namespace Administracion_pizzeria
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(164)))), ((int)(((byte)(66)))));
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel4.Location = new System.Drawing.Point(864, 49);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(53, 541);
             this.panel4.TabIndex = 4;
@@ -270,7 +270,7 @@ namespace Administracion_pizzeria
             this.tableLayoutPanel1.Controls.Add(this.textBox1, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(53, 49);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 16;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.25F));
@@ -297,7 +297,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox31.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox31.Location = new System.Drawing.Point(206, 499);
-            this.textBox31.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox31.Margin = new System.Windows.Forms.Padding(4);
             this.textBox31.Name = "textBox31";
             this.textBox31.Size = new System.Drawing.Size(194, 22);
             this.textBox31.TabIndex = 92;
@@ -306,7 +306,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox30.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox30.Location = new System.Drawing.Point(610, 466);
-            this.textBox30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox30.Margin = new System.Windows.Forms.Padding(4);
             this.textBox30.Name = "textBox30";
             this.textBox30.Size = new System.Drawing.Size(197, 22);
             this.textBox30.TabIndex = 91;
@@ -315,7 +315,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox29.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox29.Location = new System.Drawing.Point(206, 466);
-            this.textBox29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox29.Margin = new System.Windows.Forms.Padding(4);
             this.textBox29.Name = "textBox29";
             this.textBox29.Size = new System.Drawing.Size(194, 22);
             this.textBox29.TabIndex = 90;
@@ -324,7 +324,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox28.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox28.Location = new System.Drawing.Point(610, 433);
-            this.textBox28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox28.Margin = new System.Windows.Forms.Padding(4);
             this.textBox28.Name = "textBox28";
             this.textBox28.Size = new System.Drawing.Size(197, 22);
             this.textBox28.TabIndex = 89;
@@ -333,7 +333,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox27.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox27.Location = new System.Drawing.Point(206, 433);
-            this.textBox27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox27.Margin = new System.Windows.Forms.Padding(4);
             this.textBox27.Name = "textBox27";
             this.textBox27.Size = new System.Drawing.Size(194, 22);
             this.textBox27.TabIndex = 88;
@@ -342,7 +342,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox26.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox26.Location = new System.Drawing.Point(610, 400);
-            this.textBox26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox26.Margin = new System.Windows.Forms.Padding(4);
             this.textBox26.Name = "textBox26";
             this.textBox26.Size = new System.Drawing.Size(197, 22);
             this.textBox26.TabIndex = 87;
@@ -351,7 +351,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox25.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox25.Location = new System.Drawing.Point(206, 400);
-            this.textBox25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox25.Margin = new System.Windows.Forms.Padding(4);
             this.textBox25.Name = "textBox25";
             this.textBox25.Size = new System.Drawing.Size(194, 22);
             this.textBox25.TabIndex = 86;
@@ -360,7 +360,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox24.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox24.Location = new System.Drawing.Point(610, 367);
-            this.textBox24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox24.Margin = new System.Windows.Forms.Padding(4);
             this.textBox24.Name = "textBox24";
             this.textBox24.Size = new System.Drawing.Size(197, 22);
             this.textBox24.TabIndex = 85;
@@ -369,7 +369,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox23.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox23.Location = new System.Drawing.Point(206, 367);
-            this.textBox23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox23.Margin = new System.Windows.Forms.Padding(4);
             this.textBox23.Name = "textBox23";
             this.textBox23.Size = new System.Drawing.Size(194, 22);
             this.textBox23.TabIndex = 84;
@@ -378,7 +378,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox22.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox22.Location = new System.Drawing.Point(610, 334);
-            this.textBox22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox22.Margin = new System.Windows.Forms.Padding(4);
             this.textBox22.Name = "textBox22";
             this.textBox22.Size = new System.Drawing.Size(197, 22);
             this.textBox22.TabIndex = 83;
@@ -387,7 +387,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox21.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox21.Location = new System.Drawing.Point(206, 334);
-            this.textBox21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox21.Margin = new System.Windows.Forms.Padding(4);
             this.textBox21.Name = "textBox21";
             this.textBox21.Size = new System.Drawing.Size(194, 22);
             this.textBox21.TabIndex = 82;
@@ -396,7 +396,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox20.Location = new System.Drawing.Point(610, 301);
-            this.textBox20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox20.Margin = new System.Windows.Forms.Padding(4);
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(197, 22);
             this.textBox20.TabIndex = 81;
@@ -405,7 +405,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox19.Location = new System.Drawing.Point(206, 301);
-            this.textBox19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox19.Margin = new System.Windows.Forms.Padding(4);
             this.textBox19.Name = "textBox19";
             this.textBox19.Size = new System.Drawing.Size(194, 22);
             this.textBox19.TabIndex = 80;
@@ -414,7 +414,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox18.Location = new System.Drawing.Point(610, 268);
-            this.textBox18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox18.Margin = new System.Windows.Forms.Padding(4);
             this.textBox18.Name = "textBox18";
             this.textBox18.Size = new System.Drawing.Size(197, 22);
             this.textBox18.TabIndex = 79;
@@ -423,7 +423,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox17.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox17.Location = new System.Drawing.Point(206, 268);
-            this.textBox17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox17.Margin = new System.Windows.Forms.Padding(4);
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(194, 22);
             this.textBox17.TabIndex = 78;
@@ -432,7 +432,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox16.Location = new System.Drawing.Point(610, 235);
-            this.textBox16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox16.Margin = new System.Windows.Forms.Padding(4);
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(197, 22);
             this.textBox16.TabIndex = 77;
@@ -441,7 +441,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox15.Location = new System.Drawing.Point(206, 235);
-            this.textBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox15.Margin = new System.Windows.Forms.Padding(4);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(194, 22);
             this.textBox15.TabIndex = 76;
@@ -450,7 +450,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox14.Location = new System.Drawing.Point(610, 202);
-            this.textBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox14.Margin = new System.Windows.Forms.Padding(4);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(197, 22);
             this.textBox14.TabIndex = 75;
@@ -459,7 +459,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox13.Location = new System.Drawing.Point(206, 202);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox13.Margin = new System.Windows.Forms.Padding(4);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(194, 22);
             this.textBox13.TabIndex = 74;
@@ -468,7 +468,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox12.Location = new System.Drawing.Point(610, 169);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox12.Margin = new System.Windows.Forms.Padding(4);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(197, 22);
             this.textBox12.TabIndex = 73;
@@ -477,7 +477,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox11.Location = new System.Drawing.Point(206, 169);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox11.Margin = new System.Windows.Forms.Padding(4);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(194, 22);
             this.textBox11.TabIndex = 72;
@@ -486,7 +486,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox10.Location = new System.Drawing.Point(610, 136);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox10.Margin = new System.Windows.Forms.Padding(4);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(197, 22);
             this.textBox10.TabIndex = 71;
@@ -495,7 +495,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox9.Location = new System.Drawing.Point(206, 136);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(4);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(194, 22);
             this.textBox9.TabIndex = 70;
@@ -504,7 +504,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox8.Location = new System.Drawing.Point(610, 103);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(4);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(197, 22);
             this.textBox8.TabIndex = 69;
@@ -513,7 +513,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox7.Location = new System.Drawing.Point(206, 103);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(4);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(194, 22);
             this.textBox7.TabIndex = 68;
@@ -522,7 +522,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox6.Location = new System.Drawing.Point(610, 70);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(197, 22);
             this.textBox6.TabIndex = 67;
@@ -531,7 +531,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox5.Location = new System.Drawing.Point(206, 70);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(194, 22);
             this.textBox5.TabIndex = 66;
@@ -540,7 +540,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox4.Location = new System.Drawing.Point(610, 37);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(197, 22);
             this.textBox4.TabIndex = 65;
@@ -549,7 +549,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox3.Location = new System.Drawing.Point(206, 37);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(194, 22);
             this.textBox3.TabIndex = 64;
@@ -558,7 +558,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox2.Location = new System.Drawing.Point(610, 4);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(197, 22);
             this.textBox2.TabIndex = 63;
@@ -1002,7 +1002,7 @@ namespace Administracion_pizzeria
             // 
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox1.Location = new System.Drawing.Point(206, 4);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(194, 22);
             this.textBox1.TabIndex = 62;
@@ -1017,7 +1017,7 @@ namespace Administracion_pizzeria
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form2";
             this.Text = "Form2";
             this.panel1.ResumeLayout(false);
