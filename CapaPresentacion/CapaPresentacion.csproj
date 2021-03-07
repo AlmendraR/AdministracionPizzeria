@@ -47,17 +47,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Menu_principal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Menu_principal.Designer.cs">
+      <DependentUpon>Menu_principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formulario_ingresarpresupuesto.cs">
+    <Compile Include="Formulario_buscarcuadre.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formulario_ingresarpresupuesto.Designer.cs">
-      <DependentUpon>Formulario_ingresarpresupuesto.cs</DependentUpon>
+    <Compile Include="Formulario_buscarcuadre.Designer.cs">
+      <DependentUpon>Formulario_buscarcuadre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario_cuadrarinventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_cuadrarinventario.Designer.cs">
+      <DependentUpon>Formulario_cuadrarinventario.cs</DependentUpon>
     </Compile>
     <Compile Include="Formulario_ingresarusuario.cs">
       <SubType>Form</SubType>
@@ -73,11 +79,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Menu_principal.resx">
+      <DependentUpon>Menu_principal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formulario_ingresarpresupuesto.resx">
-      <DependentUpon>Formulario_ingresarpresupuesto.cs</DependentUpon>
+    <EmbeddedResource Include="Formulario_buscarcuadre.resx">
+      <DependentUpon>Formulario_buscarcuadre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_cuadrarinventario.resx">
+      <DependentUpon>Formulario_cuadrarinventario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario_ingresarusuario.resx">
       <DependentUpon>Formulario_ingresarusuario.cs</DependentUpon>

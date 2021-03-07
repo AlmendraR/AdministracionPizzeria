@@ -16,7 +16,7 @@ namespace AdministracionPizzeria.CapaPresentacion
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Formulario_ingresarusuario ());
+            Application.Run(new Menu_principal ());
         }
     }
 }
