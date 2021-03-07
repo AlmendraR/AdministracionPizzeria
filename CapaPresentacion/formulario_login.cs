@@ -16,5 +16,6 @@ namespace AdministracionPizzeria.CapaPresentacion
         {
             InitializeComponent();
         }
+
     }
 }
