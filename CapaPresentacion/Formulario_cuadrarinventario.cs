@@ -10,16 +10,12 @@ using System.Windows.Forms;
 
 namespace AdministracionPizzeria.CapaPresentacion
 {
-    public partial class Form1 : Form
+    public partial class Formulario_cuadrarinventario : Form
     {
-        public Form1()
+        public Formulario_cuadrarinventario()
         {
             InitializeComponent();
         }
 
-        private void button17_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
