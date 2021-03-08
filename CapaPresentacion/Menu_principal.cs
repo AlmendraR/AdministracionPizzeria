@@ -140,7 +140,9 @@ namespace AdministracionPizzeria.CapaPresentacion
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Abrirformularios(new formulario_login());
+            Formulario_login Login = new Formulario_login();
+            Login.MdiParent = this.MdiParent;
+            Login.Show();
             ocultarsubmenu();
         }
 
@@ -179,5 +181,6 @@ namespace AdministracionPizzeria.CapaPresentacion
         {
             this.Close();
         }
+
     }
 }

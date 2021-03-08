@@ -618,7 +618,6 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Name = "Menu_principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menu_lateral.ResumeLayout(false);
             this.smenu_personal.ResumeLayout(false);
             this.smenu_inventario.ResumeLayout(false);
