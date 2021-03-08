@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AdministracionPizzeria.CapaPresentacion
@@ -16,7 +13,7 @@ namespace AdministracionPizzeria.CapaPresentacion
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menu_principal ());
+            Application.Run(new Menu_principal());
         }
     }
 }

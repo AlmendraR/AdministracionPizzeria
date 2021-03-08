@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AdministracionPizzeria.CapaPresentacion
@@ -40,18 +33,13 @@ namespace AdministracionPizzeria.CapaPresentacion
                 submenu.Visible = true;
             }
             else
-                submenu.Visible = false;       
+                submenu.Visible = false;
         }
 
         private void bt_nuevocuadre_Click(object sender, EventArgs e)
         {
             Abrirformularios(new Formulario_cuadrarinventario());
             ocultarsubmenu();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
 
         private void bt_buscarcuadre_Click(object sender, EventArgs e)
@@ -80,25 +68,19 @@ namespace AdministracionPizzeria.CapaPresentacion
 
         private void bt_ingresarllegada_Click(object sender, EventArgs e)
         {
-            //
-            //
-            //
+            Abrirformularios(new Formulario_ingresarllegadainsumo());
             ocultarsubmenu();
         }
 
         private void bt_buscarllegada_Click(object sender, EventArgs e)
         {
-            //
-            //
-            //
+            Abrirformularios(new Formulario_buscarllegadainsumo());
             ocultarsubmenu();
         }
 
         private void bt_ingresarnuevoinsumo_Click(object sender, EventArgs e)
         {
-            //
-            //
-            //
+            Abrirformularios(new Formulario_ingresarnuevoinsumo());
             ocultarsubmenu();
         }
 
@@ -112,9 +94,7 @@ namespace AdministracionPizzeria.CapaPresentacion
 
         private void bt_buscarsalida_Click(object sender, EventArgs e)
         {
-            //
-            //
-            //
+            Abrirformularios(new Formulario_buscarsalidainsumo());
             ocultarsubmenu();
         }
 
@@ -160,9 +140,7 @@ namespace AdministracionPizzeria.CapaPresentacion
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //
-            //
-            //
+            Abrirformularios(new formulario_login());
             ocultarsubmenu();
         }
 
@@ -183,7 +161,7 @@ namespace AdministracionPizzeria.CapaPresentacion
         }
 
         private Form formularioactivo = null;
-        private void Abrirformularios (Form formularioHijo)
+        private void Abrirformularios(Form formularioHijo)
         {
             if (formularioactivo != null)
                 formularioactivo.Close();
@@ -196,5 +174,10 @@ namespace AdministracionPizzeria.CapaPresentacion
             formularioHijo.BringToFront();
             formularioHijo.Show();
         }
-    }   
+
+        private void bt_salir_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+    }
 }

@@ -83,12 +83,6 @@
     <Compile Include="Formulario_ingresarllegadainsumo.Designer.cs">
       <DependentUpon>Formulario_ingresarllegadainsumo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formulario_ingresarsalidainsumo.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Formulario_ingresarsalidainsumo.Designer.cs">
-      <DependentUpon>Formulario_ingresarsalidainsumo.cs</DependentUpon>
-    </Compile>
     <Compile Include="Menu_principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,9 +132,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario_ingresarnuevoinsumo.resx">
       <DependentUpon>Formulario_ingresarnuevoinsumo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formulario_ingresarsalidainsumo.resx">
-      <DependentUpon>Formulario_ingresarsalidainsumo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu_principal.resx">
       <DependentUpon>Menu_principal.cs</DependentUpon>
