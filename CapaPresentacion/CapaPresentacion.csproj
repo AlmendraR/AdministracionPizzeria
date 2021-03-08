@@ -47,6 +47,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formulario_buscarpersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_buscarpersonal.Designer.cs">
+      <DependentUpon>Formulario_buscarpersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario_buscarsalidainsumo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_buscarsalidainsumo.Designer.cs">
+      <DependentUpon>Formulario_buscarsalidainsumo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario_eliminarinsumo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_eliminarinsumo.Designer.cs">
+      <DependentUpon>Formulario_eliminarinsumo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario_ingresarnuevoinsumo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_ingresarnuevoinsumo.Designer.cs">
+      <DependentUpon>Formulario_ingresarnuevoinsumo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario_buscarllegadainsumo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_buscarllegadainsumo.Designer.cs">
+      <DependentUpon>Formulario_buscarllegadainsumo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario_ingresarllegadainsumo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_ingresarllegadainsumo.Designer.cs">
+      <DependentUpon>Formulario_ingresarllegadainsumo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario_ingresarsalidainsumo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formulario_ingresarsalidainsumo.Designer.cs">
+      <DependentUpon>Formulario_ingresarsalidainsumo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu_principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +121,27 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formulario_buscarllegadainsumo.resx">
+      <DependentUpon>Formulario_buscarllegadainsumo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_buscarpersonal.resx">
+      <DependentUpon>Formulario_buscarpersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_buscarsalidainsumo.resx">
+      <DependentUpon>Formulario_buscarsalidainsumo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_eliminarinsumo.resx">
+      <DependentUpon>Formulario_eliminarinsumo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_ingresarllegadainsumo.resx">
+      <DependentUpon>Formulario_ingresarllegadainsumo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_ingresarnuevoinsumo.resx">
+      <DependentUpon>Formulario_ingresarnuevoinsumo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_ingresarsalidainsumo.resx">
+      <DependentUpon>Formulario_ingresarsalidainsumo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu_principal.resx">
       <DependentUpon>Menu_principal.cs</DependentUpon>
     </EmbeddedResource>
