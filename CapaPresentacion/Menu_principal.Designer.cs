@@ -77,6 +77,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_cambiarusuariosuperior = new System.Windows.Forms.Button();
             this.panel_formularios = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.menu_lateral.SuspendLayout();
             this.smenu_administrar.SuspendLayout();
             this.smenu_personal.SuspendLayout();
@@ -517,7 +518,6 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_agregarproducto.Text = "Agregar producto";
             this.Bt_agregarproducto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Bt_agregarproducto.UseVisualStyleBackColor = false;
-            this.Bt_agregarproducto.Click += new System.EventHandler(this.Bt_ingresarnuevoinsumo_Click);
             // 
             // Bt_resumeninventario
             // 
@@ -579,10 +579,11 @@ namespace AdministracionPizzeria.CapaPresentacion
             // menu_superior
             // 
             this.menu_superior.BackColor = System.Drawing.Color.Black;
-            this.menu_superior.Controls.Add(this.panel_estadocaja);
-            this.menu_superior.Controls.Add(this.panel_nombreusuario);
-            this.menu_superior.Controls.Add(this.panel_cargousuario);
             this.menu_superior.Controls.Add(this.panel_fechayhora);
+            this.menu_superior.Controls.Add(this.panel_cargousuario);
+            this.menu_superior.Controls.Add(this.panel_nombreusuario);
+            this.menu_superior.Controls.Add(this.panel_estadocaja);
+            this.menu_superior.Controls.Add(this.panel1);
             this.menu_superior.Controls.Add(this.Bt_cerrarcajasuperior);
             this.menu_superior.Controls.Add(this.separador_sup2);
             this.menu_superior.Controls.Add(this.Bt_abrircajasuperior);
@@ -599,9 +600,9 @@ namespace AdministracionPizzeria.CapaPresentacion
             // 
             this.panel_estadocaja.Controls.Add(this.mostrar_estadocaja);
             this.panel_estadocaja.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel_estadocaja.Location = new System.Drawing.Point(340, 8);
+            this.panel_estadocaja.Location = new System.Drawing.Point(540, 79);
             this.panel_estadocaja.Name = "panel_estadocaja";
-            this.panel_estadocaja.Size = new System.Drawing.Size(438, 23);
+            this.panel_estadocaja.Size = new System.Drawing.Size(238, 21);
             this.panel_estadocaja.TabIndex = 14;
             // 
             // mostrar_estadocaja
@@ -620,9 +621,9 @@ namespace AdministracionPizzeria.CapaPresentacion
             // 
             this.panel_nombreusuario.Controls.Add(this.mostrar_nombreusuario);
             this.panel_nombreusuario.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel_nombreusuario.Location = new System.Drawing.Point(340, 31);
+            this.panel_nombreusuario.Location = new System.Drawing.Point(540, 58);
             this.panel_nombreusuario.Name = "panel_nombreusuario";
-            this.panel_nombreusuario.Size = new System.Drawing.Size(438, 23);
+            this.panel_nombreusuario.Size = new System.Drawing.Size(238, 21);
             this.panel_nombreusuario.TabIndex = 13;
             // 
             // mostrar_nombreusuario
@@ -642,9 +643,9 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.panel_cargousuario.Controls.Add(this.mostrar_cargousuario);
             this.panel_cargousuario.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel_cargousuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(207)))), ((int)(((byte)(178)))));
-            this.panel_cargousuario.Location = new System.Drawing.Point(340, 54);
+            this.panel_cargousuario.Location = new System.Drawing.Point(540, 37);
             this.panel_cargousuario.Name = "panel_cargousuario";
-            this.panel_cargousuario.Size = new System.Drawing.Size(438, 23);
+            this.panel_cargousuario.Size = new System.Drawing.Size(238, 21);
             this.panel_cargousuario.TabIndex = 12;
             // 
             // mostrar_cargousuario
@@ -663,9 +664,9 @@ namespace AdministracionPizzeria.CapaPresentacion
             // 
             this.panel_fechayhora.Controls.Add(this.mostrar_horayfecha);
             this.panel_fechayhora.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel_fechayhora.Location = new System.Drawing.Point(340, 77);
+            this.panel_fechayhora.Location = new System.Drawing.Point(540, 16);
             this.panel_fechayhora.Name = "panel_fechayhora";
-            this.panel_fechayhora.Size = new System.Drawing.Size(438, 23);
+            this.panel_fechayhora.Size = new System.Drawing.Size(238, 21);
             this.panel_fechayhora.TabIndex = 2;
             // 
             // mostrar_horayfecha
@@ -689,11 +690,12 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_cerrarcajasuperior.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Bt_cerrarcajasuperior.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_cerrarcajasuperior.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.Bt_cerrarcajasuperior.Image = ((System.Drawing.Image)(resources.GetObject("Bt_cerrarcajasuperior.Image")));
             this.Bt_cerrarcajasuperior.Location = new System.Drawing.Point(240, 0);
             this.Bt_cerrarcajasuperior.Name = "Bt_cerrarcajasuperior";
             this.Bt_cerrarcajasuperior.Size = new System.Drawing.Size(100, 100);
             this.Bt_cerrarcajasuperior.TabIndex = 10;
-            this.Bt_cerrarcajasuperior.Text = "Cerrar caja registradora";
+            this.Bt_cerrarcajasuperior.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Bt_cerrarcajasuperior.UseVisualStyleBackColor = false;
             this.Bt_cerrarcajasuperior.Click += new System.EventHandler(this.Button2_Click);
             // 
@@ -713,11 +715,12 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_abrircajasuperior.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Bt_abrircajasuperior.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_abrircajasuperior.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.Bt_abrircajasuperior.Image = ((System.Drawing.Image)(resources.GetObject("Bt_abrircajasuperior.Image")));
             this.Bt_abrircajasuperior.Location = new System.Drawing.Point(120, 0);
             this.Bt_abrircajasuperior.Name = "Bt_abrircajasuperior";
             this.Bt_abrircajasuperior.Size = new System.Drawing.Size(100, 100);
             this.Bt_abrircajasuperior.TabIndex = 2;
-            this.Bt_abrircajasuperior.Text = "Abrir caja registradora";
+            this.Bt_abrircajasuperior.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.Bt_abrircajasuperior.UseVisualStyleBackColor = false;
             this.Bt_abrircajasuperior.Click += new System.EventHandler(this.Button3_Click);
             // 
@@ -737,11 +740,11 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_cambiarusuariosuperior.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Bt_cambiarusuariosuperior.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_cambiarusuariosuperior.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.Bt_cambiarusuariosuperior.Image = ((System.Drawing.Image)(resources.GetObject("Bt_cambiarusuariosuperior.Image")));
             this.Bt_cambiarusuariosuperior.Location = new System.Drawing.Point(0, 0);
             this.Bt_cambiarusuariosuperior.Name = "Bt_cambiarusuariosuperior";
             this.Bt_cambiarusuariosuperior.Size = new System.Drawing.Size(100, 100);
             this.Bt_cambiarusuariosuperior.TabIndex = 2;
-            this.Bt_cambiarusuariosuperior.Text = "Cambiar usuario";
             this.Bt_cambiarusuariosuperior.UseVisualStyleBackColor = false;
             this.Bt_cambiarusuariosuperior.Click += new System.EventHandler(this.Button1_Click);
             // 
@@ -763,13 +766,21 @@ namespace AdministracionPizzeria.CapaPresentacion
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(241, 105);
+            this.pictureBox1.Location = new System.Drawing.Point(326, 105);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(300, 269);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(340, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 100);
+            this.panel1.TabIndex = 1;
             // 
             // Menu_principal
             // 
@@ -861,6 +872,7 @@ namespace AdministracionPizzeria.CapaPresentacion
         private System.Windows.Forms.Button Bt_cerrarcajalateral;
         private System.Windows.Forms.Button Bt_abrircajalateral;
         private System.Windows.Forms.Button Bt_cambiarusuariolateral;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

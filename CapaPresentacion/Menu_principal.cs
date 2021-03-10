@@ -81,12 +81,6 @@ namespace AdministracionPizzeria.CapaPresentacion
             Ocultarsubmenu();
         }
 
-        private void Bt_ingresarnuevoinsumo_Click(object sender, EventArgs e)
-        {
-            Abrirformularios(new Formulario_ingresarnuevoinsumo());
-            Ocultarsubmenu();
-        }
-
         private void Bt_ingresarsalida_Click(object sender, EventArgs e)
         {
             //

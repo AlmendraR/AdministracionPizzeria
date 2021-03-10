@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formulario_agregarproducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_agregarproducto.Designer.cs">
+      <DependentUpon>Formulario_agregarproducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulario_buscarpersonal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,17 +65,12 @@
     <Compile Include="Formulario_buscarsalidainsumo.Designer.cs">
       <DependentUpon>Formulario_buscarsalidainsumo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formulario_eliminarinsumo.cs">
+    <Compile Include=".cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formulario_eliminarinsumo.Designer.cs">
-      <DependentUpon>Formulario_eliminarinsumo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formulario_ingresarnuevoinsumo.cs">
+    <Compile Include=".Designer.cs">
+      <DependentUpon>.cs</DependentUpon>
       <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formulario_ingresarnuevoinsumo.Designer.cs">
-      <DependentUpon>Formulario_ingresarnuevoinsumo.cs</DependentUpon>
     </Compile>
     <Compile Include="Formulario_buscarllegadainsumo.cs">
       <SubType>Form</SubType>
@@ -121,6 +122,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formulario_agregarproducto.resx">
+      <DependentUpon>Formulario_agregarproducto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formulario_buscarllegadainsumo.resx">
       <DependentUpon>Formulario_buscarllegadainsumo.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,14 +134,11 @@
     <EmbeddedResource Include="Formulario_buscarsalidainsumo.resx">
       <DependentUpon>Formulario_buscarsalidainsumo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formulario_eliminarinsumo.resx">
-      <DependentUpon>Formulario_eliminarinsumo.cs</DependentUpon>
+    <EmbeddedResource Include=".resx">
+      <DependentUpon>.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario_ingresarllegadainsumo.resx">
       <DependentUpon>Formulario_ingresarllegadainsumo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formulario_ingresarnuevoinsumo.resx">
-      <DependentUpon>Formulario_ingresarnuevoinsumo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario_resumeninventario.resx">
       <DependentUpon>Formulario_resumeninventario.cs</DependentUpon>
