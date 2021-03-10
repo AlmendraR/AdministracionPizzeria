@@ -8,158 +8,163 @@ namespace AdministracionPizzeria.CapaPresentacion
         public Menu_principal()
         {
             InitializeComponent();
-            iniciarmenus();
+            Iniciarmenus();
         }
 
-        private void iniciarmenus()
+        //Funciones del menú//
+        private void Iniciarmenus()
         {
             smenu_inventario.Visible = false;
+            smenu_cuadres.Visible = false;
+            smenu_llegadasysalidas.Visible = false;
             smenu_personal.Visible = false;
+            smenu_administrar.Visible = false;
         }
 
-        private void ocultarsubmenu()
+        private void Ocultarsubmenu()
         {
             if (smenu_inventario.Visible == true)
                 smenu_inventario.Visible = false;
+            if (smenu_cuadres.Visible == true)
+                smenu_cuadres.Visible = false;
+            if (smenu_llegadasysalidas.Visible == true)
+                smenu_llegadasysalidas.Visible = false;
             if (smenu_personal.Visible == true)
                 smenu_personal.Visible = false;
+            if (smenu_administrar.Visible == true)
+                smenu_administrar.Visible = false;
         }
 
-        private void mostrarsubmenu(Panel submenu)
+        private void Mostrarsubmenu(Panel submenu)
         {
             if (submenu.Visible == false)
             {
-                ocultarsubmenu();
+                Ocultarsubmenu();
                 submenu.Visible = true;
             }
             else
                 submenu.Visible = false;
         }
 
-        private void bt_nuevocuadre_Click(object sender, EventArgs e)
+        private void Bt_nuevocuadre_Click(object sender, EventArgs e)
         {
             Abrirformularios(new Formulario_cuadrarinventario());
-            ocultarsubmenu();
+            Ocultarsubmenu();
         }
 
-        private void bt_buscarcuadre_Click(object sender, EventArgs e)
+        private void Bt_buscarcuadre_Click(object sender, EventArgs e)
         {
             Abrirformularios(new Formulario_buscarcuadre());
-            ocultarsubmenu();
+            Ocultarsubmenu();
         }
 
-        private void bt_inventario_Click(object sender, EventArgs e)
+        private void Bt_inventario_Click(object sender, EventArgs e)
         {
-            mostrarsubmenu(smenu_inventario);
+            Mostrarsubmenu(smenu_inventario);
         }
 
-        private void bt_personal_Click(object sender, EventArgs e)
+        private void Bt_personal_Click(object sender, EventArgs e)
         {
-            mostrarsubmenu(smenu_personal);
+            Mostrarsubmenu(smenu_personal);
         }
 
-        private void bt_informeinventario_Click(object sender, EventArgs e)
-        {
-            //
-            //
-            //
-            ocultarsubmenu();
-        }
 
-        private void bt_ingresarllegada_Click(object sender, EventArgs e)
+        private void Bt_ingresarllegada_Click(object sender, EventArgs e)
         {
             Abrirformularios(new Formulario_ingresarllegadainsumo());
-            ocultarsubmenu();
+            Ocultarsubmenu();
         }
 
-        private void bt_buscarllegada_Click(object sender, EventArgs e)
+        private void Bt_buscarllegada_Click(object sender, EventArgs e)
         {
             Abrirformularios(new Formulario_buscarllegadainsumo());
-            ocultarsubmenu();
+            Ocultarsubmenu();
         }
 
-        private void bt_ingresarnuevoinsumo_Click(object sender, EventArgs e)
+        private void Bt_ingresarnuevoinsumo_Click(object sender, EventArgs e)
         {
             Abrirformularios(new Formulario_ingresarnuevoinsumo());
-            ocultarsubmenu();
+            Ocultarsubmenu();
         }
 
-        private void bt_ingresarsalida_Click(object sender, EventArgs e)
+        private void Bt_ingresarsalida_Click(object sender, EventArgs e)
         {
             //
             //
             //
-            ocultarsubmenu();
+            Ocultarsubmenu();
         }
 
-        private void bt_buscarsalida_Click(object sender, EventArgs e)
+        private void Bt_buscarsalida_Click(object sender, EventArgs e)
         {
             Abrirformularios(new Formulario_buscarsalidainsumo());
-            ocultarsubmenu();
+            Ocultarsubmenu();
         }
 
-        private void bt_eliminarinsumo_Click(object sender, EventArgs e)
+        private void Bt_eliminarinsumo_Click(object sender, EventArgs e)
         {
             //
             //
             //
-            ocultarsubmenu();
+            Ocultarsubmenu();
         }
 
-        private void bt_buscarpersonal_Click(object sender, EventArgs e)
+        private void Bt_buscarpersonal_Click(object sender, EventArgs e)
         {
             //
             //
             //
-            ocultarsubmenu();
+            Ocultarsubmenu();
         }
 
-        private void bt_ingresarnuevo_Click(object sender, EventArgs e)
+        private void Bt_ingresarnuevo_Click(object sender, EventArgs e)
         {
             //
             //
             //
-            ocultarsubmenu();
+            Ocultarsubmenu();
         }
 
-        private void bt_dardebaja_Click(object sender, EventArgs e)
+        private void Bt_dardebaja_Click(object sender, EventArgs e)
         {
             //
             //
             //
-            ocultarsubmenu();
+            Ocultarsubmenu();
         }
 
-        private void bt_informepersonal_Click(object sender, EventArgs e)
+        private void Bt_informepersonal_Click(object sender, EventArgs e)
         {
             //
             //
             //
-            ocultarsubmenu();
+            Ocultarsubmenu();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
-            Formulario_login Login = new Formulario_login();
-            Login.MdiParent = this.MdiParent;
+            Formulario_login Login = new Formulario_login
+            {
+                MdiParent = this.MdiParent
+            };
             Login.Show();
-            ocultarsubmenu();
+            Ocultarsubmenu();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Button3_Click(object sender, EventArgs e)
         {
             //
             //
             //
-            ocultarsubmenu();
+            Ocultarsubmenu();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Button2_Click(object sender, EventArgs e)
         {
             //
             //
             //
-            ocultarsubmenu();
+            Ocultarsubmenu();
         }
 
         private Form formularioactivo = null;
@@ -177,10 +182,35 @@ namespace AdministracionPizzeria.CapaPresentacion
             formularioHijo.Show();
         }
 
-        private void bt_salir_Click_1(object sender, EventArgs e)
+        private void Bt_salir_Click_1(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        private void Bt_cuadres_Click(object sender, EventArgs e)
+        {
+            Mostrarsubmenu(smenu_cuadres);
+        }
+
+        private void Bt_llegadasysalidas_Click(object sender, EventArgs e)
+        {
+            Mostrarsubmenu(smenu_llegadasysalidas);
+        }
+
+        private void Bt_personal_Click_1(object sender, EventArgs e)
+        {
+            Mostrarsubmenu(smenu_personal);
+        }
+
+        private void Bt_administrar_Click(object sender, EventArgs e)
+        {
+            Mostrarsubmenu(smenu_administrar);
+        }
+
+        private void Bt_resumeninventario_Click(object sender, EventArgs e)
+        {
+            Abrirformularios(new Formulario_resumeninventario());
+            Ocultarsubmenu();
+        }
     }
 }

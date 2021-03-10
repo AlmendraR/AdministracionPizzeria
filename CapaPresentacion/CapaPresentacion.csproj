@@ -83,6 +83,12 @@
     <Compile Include="Formulario_ingresarllegadainsumo.Designer.cs">
       <DependentUpon>Formulario_ingresarllegadainsumo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulario_resumeninventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_resumeninventario.Designer.cs">
+      <DependentUpon>Formulario_resumeninventario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu_principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +138,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario_ingresarnuevoinsumo.resx">
       <DependentUpon>Formulario_ingresarnuevoinsumo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_resumeninventario.resx">
+      <DependentUpon>Formulario_resumeninventario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu_principal.resx">
       <DependentUpon>Menu_principal.cs</DependentUpon>
