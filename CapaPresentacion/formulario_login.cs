@@ -33,7 +33,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             }
         }
 
-        private void button1_Click(object sender, System.EventArgs e)
+        private void Button1_Click(object sender, System.EventArgs e)
         {
             Validarlogin();
         }
