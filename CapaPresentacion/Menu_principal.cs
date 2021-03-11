@@ -293,5 +293,12 @@ namespace AdministracionPizzeria.CapaPresentacion
             Abrirformularios(new Formulario_ingresarsalida());
             Ocultarsubmenu();
         }
+
+        private string f = DateTime.Today.ToShortDateString();
+        private void Menu_principal_Load(object sender, EventArgs e)
+        {
+            mostrar_horayfecha.Text = "Fecha:        " + f;
+        }
     }
+
 }
