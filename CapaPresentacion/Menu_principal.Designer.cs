@@ -62,14 +62,15 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.separador = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.menu_superior = new System.Windows.Forms.Panel();
-            this.panel_estadocaja = new System.Windows.Forms.Panel();
-            this.mostrar_estadocaja = new System.Windows.Forms.Label();
-            this.panel_nombreusuario = new System.Windows.Forms.Panel();
-            this.mostrar_nombreusuario = new System.Windows.Forms.Label();
-            this.panel_cargousuario = new System.Windows.Forms.Panel();
-            this.mostrar_cargousuario = new System.Windows.Forms.Label();
             this.panel_fechayhora = new System.Windows.Forms.Panel();
             this.mostrar_horayfecha = new System.Windows.Forms.Label();
+            this.panel_cargousuario = new System.Windows.Forms.Panel();
+            this.mostrar_cargousuario = new System.Windows.Forms.Label();
+            this.panel_nombreusuario = new System.Windows.Forms.Panel();
+            this.mostrar_nombreusuario = new System.Windows.Forms.Label();
+            this.panel_estadocaja = new System.Windows.Forms.Panel();
+            this.mostrar_estadocaja = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.Bt_cerrarcajasuperior = new System.Windows.Forms.Button();
             this.separador_sup2 = new System.Windows.Forms.Panel();
             this.Bt_abrircajasuperior = new System.Windows.Forms.Button();
@@ -77,7 +78,6 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_cambiarusuariosuperior = new System.Windows.Forms.Button();
             this.panel_formularios = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.menu_lateral.SuspendLayout();
             this.smenu_administrar.SuspendLayout();
             this.smenu_personal.SuspendLayout();
@@ -87,10 +87,10 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.separador.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.menu_superior.SuspendLayout();
-            this.panel_estadocaja.SuspendLayout();
-            this.panel_nombreusuario.SuspendLayout();
-            this.panel_cargousuario.SuspendLayout();
             this.panel_fechayhora.SuspendLayout();
+            this.panel_cargousuario.SuspendLayout();
+            this.panel_nombreusuario.SuspendLayout();
+            this.panel_estadocaja.SuspendLayout();
             this.panel_formularios.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -116,7 +116,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.menu_lateral.Location = new System.Drawing.Point(0, 0);
             this.menu_lateral.Margin = new System.Windows.Forms.Padding(4);
             this.menu_lateral.Name = "menu_lateral";
-            this.menu_lateral.Size = new System.Drawing.Size(250, 609);
+            this.menu_lateral.Size = new System.Drawing.Size(250, 720);
             this.menu_lateral.TabIndex = 0;
             // 
             // Bt_cerrarsesion
@@ -194,6 +194,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_cambiarusuariolateral.Text = "Cambiar usuario";
             this.Bt_cambiarusuariolateral.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Bt_cambiarusuariolateral.UseVisualStyleBackColor = false;
+            this.Bt_cambiarusuariolateral.Click += new System.EventHandler(this.Bt_cambiarusuariolateral_Click);
             // 
             // Bt_crearusuario
             // 
@@ -210,6 +211,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_crearusuario.Text = "Crear usuario";
             this.Bt_crearusuario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Bt_crearusuario.UseVisualStyleBackColor = false;
+            this.Bt_crearusuario.Click += new System.EventHandler(this.Bt_crearusuario_Click);
             // 
             // Bt_administrar
             // 
@@ -254,6 +256,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_dardebaja.Text = "Dar de baja";
             this.Bt_dardebaja.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Bt_dardebaja.UseVisualStyleBackColor = false;
+            this.Bt_dardebaja.Click += new System.EventHandler(this.Bt_dardebaja_Click_1);
             // 
             // Bt_ingresarpersonal
             // 
@@ -270,6 +273,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_ingresarpersonal.Text = "Ingresar personal";
             this.Bt_ingresarpersonal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Bt_ingresarpersonal.UseVisualStyleBackColor = false;
+            this.Bt_ingresarpersonal.Click += new System.EventHandler(this.Bt_ingresarpersonal_Click);
             // 
             // Bt_resumenpersonal
             // 
@@ -333,6 +337,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_buscarsalida.Text = "Buscar salida";
             this.Bt_buscarsalida.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Bt_buscarsalida.UseVisualStyleBackColor = false;
+            this.Bt_buscarsalida.Click += new System.EventHandler(this.Bt_buscarsalida_Click_1);
             // 
             // Bt_ingresarsalida
             // 
@@ -349,6 +354,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_ingresarsalida.Text = "Ingresar salida";
             this.Bt_ingresarsalida.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Bt_ingresarsalida.UseVisualStyleBackColor = false;
+            this.Bt_ingresarsalida.Click += new System.EventHandler(this.Bt_ingresarsalida_Click_1);
             // 
             // Bt_buscarllegada
             // 
@@ -365,6 +371,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_buscarllegada.Text = "Buscar llegada";
             this.Bt_buscarllegada.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Bt_buscarllegada.UseVisualStyleBackColor = false;
+            this.Bt_buscarllegada.Click += new System.EventHandler(this.Bt_buscarllegada_Click_1);
             // 
             // Bt_ingresarllegada
             // 
@@ -381,6 +388,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_ingresarllegada.Text = "Ingresar llegada";
             this.Bt_ingresarllegada.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Bt_ingresarllegada.UseVisualStyleBackColor = false;
+            this.Bt_ingresarllegada.Click += new System.EventHandler(this.Bt_ingresarllegada_Click_1);
             // 
             // Bt_llegadasysalidas
             // 
@@ -424,6 +432,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_mostrarcuadres.Text = "Mostrar cuadres";
             this.Bt_mostrarcuadres.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Bt_mostrarcuadres.UseVisualStyleBackColor = false;
+            this.Bt_mostrarcuadres.Click += new System.EventHandler(this.Bt_mostrarcuadres_Click);
             // 
             // Bt_cuadrarinventario
             // 
@@ -440,6 +449,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_cuadrarinventario.Text = "Cuadrar inventario";
             this.Bt_cuadrarinventario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Bt_cuadrarinventario.UseVisualStyleBackColor = false;
+            this.Bt_cuadrarinventario.Click += new System.EventHandler(this.Bt_cuadrarinventario_Click);
             // 
             // Bt_cuadres
             // 
@@ -464,7 +474,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_salir.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.Bt_salir.FlatAppearance.BorderSize = 0;
             this.Bt_salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_salir.Location = new System.Drawing.Point(0, 564);
+            this.Bt_salir.Location = new System.Drawing.Point(0, 675);
             this.Bt_salir.Name = "Bt_salir";
             this.Bt_salir.Size = new System.Drawing.Size(250, 45);
             this.Bt_salir.TabIndex = 9;
@@ -500,7 +510,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_eliminarproducto.Text = "Eliminar producto";
             this.Bt_eliminarproducto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Bt_eliminarproducto.UseVisualStyleBackColor = false;
-            this.Bt_eliminarproducto.Click += new System.EventHandler(this.Bt_eliminarinsumo_Click);
+            this.Bt_eliminarproducto.Click += new System.EventHandler(this.Bt_eliminarproducto_Click);
             // 
             // Bt_agregarproducto
             // 
@@ -518,6 +528,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_agregarproducto.Text = "Agregar producto";
             this.Bt_agregarproducto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Bt_agregarproducto.UseVisualStyleBackColor = false;
+            this.Bt_agregarproducto.Click += new System.EventHandler(this.Bt_agregarproducto_Click);
             // 
             // Bt_resumeninventario
             // 
@@ -593,72 +604,8 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.menu_superior.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(207)))), ((int)(((byte)(178)))));
             this.menu_superior.Location = new System.Drawing.Point(250, 0);
             this.menu_superior.Name = "menu_superior";
-            this.menu_superior.Size = new System.Drawing.Size(778, 100);
+            this.menu_superior.Size = new System.Drawing.Size(1030, 100);
             this.menu_superior.TabIndex = 1;
-            // 
-            // panel_estadocaja
-            // 
-            this.panel_estadocaja.Controls.Add(this.mostrar_estadocaja);
-            this.panel_estadocaja.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel_estadocaja.Location = new System.Drawing.Point(540, 79);
-            this.panel_estadocaja.Name = "panel_estadocaja";
-            this.panel_estadocaja.Size = new System.Drawing.Size(238, 21);
-            this.panel_estadocaja.TabIndex = 14;
-            // 
-            // mostrar_estadocaja
-            // 
-            this.mostrar_estadocaja.AutoSize = true;
-            this.mostrar_estadocaja.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mostrar_estadocaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mostrar_estadocaja.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
-            this.mostrar_estadocaja.Location = new System.Drawing.Point(0, 0);
-            this.mostrar_estadocaja.Name = "mostrar_estadocaja";
-            this.mostrar_estadocaja.Size = new System.Drawing.Size(102, 16);
-            this.mostrar_estadocaja.TabIndex = 0;
-            this.mostrar_estadocaja.Text = "Estado de caja:";
-            // 
-            // panel_nombreusuario
-            // 
-            this.panel_nombreusuario.Controls.Add(this.mostrar_nombreusuario);
-            this.panel_nombreusuario.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel_nombreusuario.Location = new System.Drawing.Point(540, 58);
-            this.panel_nombreusuario.Name = "panel_nombreusuario";
-            this.panel_nombreusuario.Size = new System.Drawing.Size(238, 21);
-            this.panel_nombreusuario.TabIndex = 13;
-            // 
-            // mostrar_nombreusuario
-            // 
-            this.mostrar_nombreusuario.AutoSize = true;
-            this.mostrar_nombreusuario.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mostrar_nombreusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mostrar_nombreusuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
-            this.mostrar_nombreusuario.Location = new System.Drawing.Point(0, 0);
-            this.mostrar_nombreusuario.Name = "mostrar_nombreusuario";
-            this.mostrar_nombreusuario.Size = new System.Drawing.Size(58, 16);
-            this.mostrar_nombreusuario.TabIndex = 0;
-            this.mostrar_nombreusuario.Text = "Usuario:";
-            // 
-            // panel_cargousuario
-            // 
-            this.panel_cargousuario.Controls.Add(this.mostrar_cargousuario);
-            this.panel_cargousuario.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel_cargousuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(207)))), ((int)(((byte)(178)))));
-            this.panel_cargousuario.Location = new System.Drawing.Point(540, 37);
-            this.panel_cargousuario.Name = "panel_cargousuario";
-            this.panel_cargousuario.Size = new System.Drawing.Size(238, 21);
-            this.panel_cargousuario.TabIndex = 12;
-            // 
-            // mostrar_cargousuario
-            // 
-            this.mostrar_cargousuario.AutoSize = true;
-            this.mostrar_cargousuario.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mostrar_cargousuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mostrar_cargousuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
-            this.mostrar_cargousuario.Location = new System.Drawing.Point(0, 0);
-            this.mostrar_cargousuario.Name = "mostrar_cargousuario";
-            this.mostrar_cargousuario.Size = new System.Drawing.Size(48, 16);
-            this.mostrar_cargousuario.TabIndex = 0;
-            this.mostrar_cargousuario.Text = "Cargo:";
             // 
             // panel_fechayhora
             // 
@@ -666,7 +613,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.panel_fechayhora.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel_fechayhora.Location = new System.Drawing.Point(540, 16);
             this.panel_fechayhora.Name = "panel_fechayhora";
-            this.panel_fechayhora.Size = new System.Drawing.Size(238, 21);
+            this.panel_fechayhora.Size = new System.Drawing.Size(490, 21);
             this.panel_fechayhora.TabIndex = 2;
             // 
             // mostrar_horayfecha
@@ -681,6 +628,78 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.mostrar_horayfecha.Size = new System.Drawing.Size(49, 16);
             this.mostrar_horayfecha.TabIndex = 0;
             this.mostrar_horayfecha.Text = "Fecha:";
+            // 
+            // panel_cargousuario
+            // 
+            this.panel_cargousuario.Controls.Add(this.mostrar_cargousuario);
+            this.panel_cargousuario.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel_cargousuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(207)))), ((int)(((byte)(178)))));
+            this.panel_cargousuario.Location = new System.Drawing.Point(540, 37);
+            this.panel_cargousuario.Name = "panel_cargousuario";
+            this.panel_cargousuario.Size = new System.Drawing.Size(490, 21);
+            this.panel_cargousuario.TabIndex = 12;
+            // 
+            // mostrar_cargousuario
+            // 
+            this.mostrar_cargousuario.AutoSize = true;
+            this.mostrar_cargousuario.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mostrar_cargousuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mostrar_cargousuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.mostrar_cargousuario.Location = new System.Drawing.Point(0, 0);
+            this.mostrar_cargousuario.Name = "mostrar_cargousuario";
+            this.mostrar_cargousuario.Size = new System.Drawing.Size(48, 16);
+            this.mostrar_cargousuario.TabIndex = 0;
+            this.mostrar_cargousuario.Text = "Cargo:";
+            // 
+            // panel_nombreusuario
+            // 
+            this.panel_nombreusuario.Controls.Add(this.mostrar_nombreusuario);
+            this.panel_nombreusuario.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel_nombreusuario.Location = new System.Drawing.Point(540, 58);
+            this.panel_nombreusuario.Name = "panel_nombreusuario";
+            this.panel_nombreusuario.Size = new System.Drawing.Size(490, 21);
+            this.panel_nombreusuario.TabIndex = 13;
+            // 
+            // mostrar_nombreusuario
+            // 
+            this.mostrar_nombreusuario.AutoSize = true;
+            this.mostrar_nombreusuario.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mostrar_nombreusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mostrar_nombreusuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.mostrar_nombreusuario.Location = new System.Drawing.Point(0, 0);
+            this.mostrar_nombreusuario.Name = "mostrar_nombreusuario";
+            this.mostrar_nombreusuario.Size = new System.Drawing.Size(58, 16);
+            this.mostrar_nombreusuario.TabIndex = 0;
+            this.mostrar_nombreusuario.Text = "Usuario:";
+            // 
+            // panel_estadocaja
+            // 
+            this.panel_estadocaja.Controls.Add(this.mostrar_estadocaja);
+            this.panel_estadocaja.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel_estadocaja.Location = new System.Drawing.Point(540, 79);
+            this.panel_estadocaja.Name = "panel_estadocaja";
+            this.panel_estadocaja.Size = new System.Drawing.Size(490, 21);
+            this.panel_estadocaja.TabIndex = 14;
+            // 
+            // mostrar_estadocaja
+            // 
+            this.mostrar_estadocaja.AutoSize = true;
+            this.mostrar_estadocaja.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mostrar_estadocaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mostrar_estadocaja.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.mostrar_estadocaja.Location = new System.Drawing.Point(0, 0);
+            this.mostrar_estadocaja.Name = "mostrar_estadocaja";
+            this.mostrar_estadocaja.Size = new System.Drawing.Size(102, 16);
+            this.mostrar_estadocaja.TabIndex = 0;
+            this.mostrar_estadocaja.Text = "Estado de caja:";
+            // 
+            // panel1
+            // 
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(340, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 100);
+            this.panel1.TabIndex = 1;
             // 
             // Bt_cerrarcajasuperior
             // 
@@ -759,14 +778,13 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.panel_formularios.ForeColor = System.Drawing.Color.Black;
             this.panel_formularios.Location = new System.Drawing.Point(250, 100);
             this.panel_formularios.Name = "panel_formularios";
-            this.panel_formularios.Size = new System.Drawing.Size(778, 509);
+            this.panel_formularios.Size = new System.Drawing.Size(1030, 620);
             this.panel_formularios.TabIndex = 3;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(326, 105);
+            this.pictureBox1.Location = new System.Drawing.Point(365, 160);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(300, 269);
@@ -774,19 +792,11 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // panel1
-            // 
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(340, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 100);
-            this.panel1.TabIndex = 1;
-            // 
             // Menu_principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1028, 609);
+            this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.panel_formularios);
             this.Controls.Add(this.menu_superior);
             this.Controls.Add(this.menu_lateral);
@@ -798,7 +808,6 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Name = "Menu_principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menu_lateral.ResumeLayout(false);
             this.smenu_administrar.ResumeLayout(false);
             this.smenu_personal.ResumeLayout(false);
@@ -808,14 +817,14 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.separador.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.menu_superior.ResumeLayout(false);
-            this.panel_estadocaja.ResumeLayout(false);
-            this.panel_estadocaja.PerformLayout();
-            this.panel_nombreusuario.ResumeLayout(false);
-            this.panel_nombreusuario.PerformLayout();
-            this.panel_cargousuario.ResumeLayout(false);
-            this.panel_cargousuario.PerformLayout();
             this.panel_fechayhora.ResumeLayout(false);
             this.panel_fechayhora.PerformLayout();
+            this.panel_cargousuario.ResumeLayout(false);
+            this.panel_cargousuario.PerformLayout();
+            this.panel_nombreusuario.ResumeLayout(false);
+            this.panel_nombreusuario.PerformLayout();
+            this.panel_estadocaja.ResumeLayout(false);
+            this.panel_estadocaja.PerformLayout();
             this.panel_formularios.ResumeLayout(false);
             this.panel_formularios.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

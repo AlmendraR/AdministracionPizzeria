@@ -53,12 +53,6 @@
     <Compile Include="Formulario_agregarproducto.Designer.cs">
       <DependentUpon>Formulario_agregarproducto.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formulario_buscarpersonal.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formulario_buscarpersonal.Designer.cs">
-      <DependentUpon>Formulario_buscarpersonal.cs</DependentUpon>
-    </Compile>
     <Compile Include="Formulario_buscarsalidainsumo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,11 +72,35 @@
     <Compile Include="Formulario_buscarllegadainsumo.Designer.cs">
       <DependentUpon>Formulario_buscarllegadainsumo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formulario_ingresarllegadainsumo.cs">
+    <Compile Include="Formulario_crearusuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formulario_ingresarllegadainsumo.Designer.cs">
-      <DependentUpon>Formulario_ingresarllegadainsumo.cs</DependentUpon>
+    <Compile Include="Formulario_crearusuario.Designer.cs">
+      <DependentUpon>Formulario_crearusuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario_dardebaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_dardebaja.Designer.cs">
+      <DependentUpon>Formulario_dardebaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario_eliminarproducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_eliminarproducto.Designer.cs">
+      <DependentUpon>Formulario_eliminarproducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario_ingresarllegada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_ingresarllegada.Designer.cs">
+      <DependentUpon>Formulario_ingresarllegada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario_ingresarsalida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_ingresarsalida.Designer.cs">
+      <DependentUpon>Formulario_ingresarsalida.cs</DependentUpon>
     </Compile>
     <Compile Include="Formulario_resumeninventario.cs">
       <SubType>Form</SubType>
@@ -90,17 +108,23 @@
     <Compile Include="Formulario_resumeninventario.Designer.cs">
       <DependentUpon>Formulario_resumeninventario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulario_resumenpersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario_resumenpersonal.Designer.cs">
+      <DependentUpon>Formulario_resumenpersonal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu_principal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Menu_principal.Designer.cs">
       <DependentUpon>Menu_principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formulario_buscarcuadre.cs">
+    <Compile Include="Formulario_mostrarcuadres.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formulario_buscarcuadre.Designer.cs">
-      <DependentUpon>Formulario_buscarcuadre.cs</DependentUpon>
+    <Compile Include="Formulario_mostrarcuadres.Designer.cs">
+      <DependentUpon>Formulario_mostrarcuadres.cs</DependentUpon>
     </Compile>
     <Compile Include="Formulario_cuadrarinventario.cs">
       <SubType>Form</SubType>
@@ -108,11 +132,11 @@
     <Compile Include="Formulario_cuadrarinventario.Designer.cs">
       <DependentUpon>Formulario_cuadrarinventario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formulario_ingresarusuario.cs">
+    <Compile Include="Formulario_ingresarpersonal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formulario_ingresarusuario.Designer.cs">
-      <DependentUpon>Formulario_ingresarusuario.cs</DependentUpon>
+    <Compile Include="Formulario_ingresarpersonal.Designer.cs">
+      <DependentUpon>Formulario_ingresarpersonal.cs</DependentUpon>
     </Compile>
     <Compile Include="Formulario_login.cs">
       <SubType>Form</SubType>
@@ -128,32 +152,44 @@
     <EmbeddedResource Include="Formulario_buscarllegadainsumo.resx">
       <DependentUpon>Formulario_buscarllegadainsumo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formulario_buscarpersonal.resx">
-      <DependentUpon>Formulario_buscarpersonal.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Formulario_buscarsalidainsumo.resx">
       <DependentUpon>Formulario_buscarsalidainsumo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include=".resx">
       <DependentUpon>.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formulario_ingresarllegadainsumo.resx">
-      <DependentUpon>Formulario_ingresarllegadainsumo.cs</DependentUpon>
+    <EmbeddedResource Include="Formulario_crearusuario.resx">
+      <DependentUpon>Formulario_crearusuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_dardebaja.resx">
+      <DependentUpon>Formulario_dardebaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_eliminarproducto.resx">
+      <DependentUpon>Formulario_eliminarproducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_ingresarllegada.resx">
+      <DependentUpon>Formulario_ingresarllegada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_ingresarsalida.resx">
+      <DependentUpon>Formulario_ingresarsalida.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario_resumeninventario.resx">
       <DependentUpon>Formulario_resumeninventario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_resumenpersonal.resx">
+      <DependentUpon>Formulario_resumenpersonal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu_principal.resx">
       <DependentUpon>Menu_principal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formulario_buscarcuadre.resx">
-      <DependentUpon>Formulario_buscarcuadre.cs</DependentUpon>
+    <EmbeddedResource Include="Formulario_mostrarcuadres.resx">
+      <DependentUpon>Formulario_mostrarcuadres.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario_cuadrarinventario.resx">
       <DependentUpon>Formulario_cuadrarinventario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formulario_ingresarusuario.resx">
-      <DependentUpon>Formulario_ingresarusuario.cs</DependentUpon>
+    <EmbeddedResource Include="Formulario_ingresarpersonal.resx">
+      <DependentUpon>Formulario_ingresarpersonal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario_login.resx">
       <DependentUpon>Formulario_login.cs</DependentUpon>

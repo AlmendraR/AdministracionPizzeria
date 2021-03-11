@@ -2,13 +2,14 @@
 
 namespace AdministracionPizzeria.CapaPresentacion
 {
-    public partial class Formulario_cuadrarinventario : Form
+    public partial class Formulario_ingresarllegada : Form
     {
-        public Formulario_cuadrarinventario()
+        public Formulario_ingresarllegada()
         {
             InitializeComponent();
         }
-        private void Bt_cerrar_Click_1(object sender, System.EventArgs e)
+
+        private void Bt_cerrar_Click(object sender, System.EventArgs e)
         {
             this.Close();
         }

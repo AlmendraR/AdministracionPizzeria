@@ -1,7 +1,7 @@
 ﻿
 namespace AdministracionPizzeria.CapaPresentacion
 {
-    partial class Formulario_cuadrarinventario
+    partial class Formulario_ingresarllegada
     {
         /// <summary>
         /// Required designer variable.
@@ -29,32 +29,60 @@ namespace AdministracionPizzeria.CapaPresentacion
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.label1 = new System.Windows.Forms.Label();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.Bt_cerrar = new System.Windows.Forms.Button();
             this.Bt_cancelar = new System.Windows.Forms.Button();
             this.Bt_guardar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // splitContainer1
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.splitContainer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(80, 15);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(420, 22);
-            this.textBox1.TabIndex = 0;
+            this.splitContainer1.Location = new System.Drawing.Point(20, 50);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.dataGridView1);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.listBox1);
+            this.splitContainer1.Size = new System.Drawing.Size(480, 200);
+            this.splitContainer1.SplitterDistance = 240;
+            this.splitContainer1.SplitterWidth = 5;
+            this.splitContainer1.TabIndex = 9;
+            // 
+            // panel1
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(203)))), ((int)(((byte)(117)))));
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.Bt_guardar);
+            this.panel1.Controls.Add(this.Bt_cancelar);
+            this.panel1.Controls.Add(this.Bt_cerrar);
+            this.panel1.Controls.Add(this.splitContainer1);
+            this.panel1.Location = new System.Drawing.Point(40, 40);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(520, 320);
+            this.panel1.TabIndex = 10;
             // 
             // dataGridView1
             // 
@@ -64,67 +92,20 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(248, 190);
-            this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.Size = new System.Drawing.Size(240, 200);
+            this.dataGridView1.TabIndex = 0;
             // 
-            // listView1
+            // listBox1
             // 
-            this.listView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(0, 0);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(248, 190);
-            this.listView1.TabIndex = 2;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.List;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(20, 15);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 18);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Buscar ";
-            // 
-            // splitContainer1
-            // 
-            this.splitContainer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.splitContainer1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(203)))), ((int)(((byte)(117)))));
-            this.splitContainer1.Location = new System.Drawing.Point(50, 90);
-            this.splitContainer1.Name = "splitContainer1";
-            // 
-            // splitContainer1.Panel1
-            // 
-            this.splitContainer1.Panel1.Controls.Add(this.dataGridView1);
-            // 
-            // splitContainer1.Panel2
-            // 
-            this.splitContainer1.Panel2.Controls.Add(this.listView1);
-            this.splitContainer1.Size = new System.Drawing.Size(500, 190);
-            this.splitContainer1.SplitterDistance = 248;
-            this.splitContainer1.TabIndex = 6;
-            // 
-            // panel1
-            // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(203)))), ((int)(((byte)(117)))));
-            this.panel1.Controls.Add(this.Bt_guardar);
-            this.panel1.Controls.Add(this.Bt_cancelar);
-            this.panel1.Controls.Add(this.Bt_cerrar);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Location = new System.Drawing.Point(40, 40);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(520, 320);
-            this.panel1.TabIndex = 8;
+            this.listBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(0, 0);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(235, 200);
+            this.listBox1.TabIndex = 0;
             // 
             // Bt_cerrar
             // 
@@ -132,14 +113,13 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_cerrar.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.Bt_cerrar.FlatAppearance.BorderSize = 0;
             this.Bt_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_cerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_cerrar.Location = new System.Drawing.Point(20, 265);
             this.Bt_cerrar.Name = "Bt_cerrar";
             this.Bt_cerrar.Size = new System.Drawing.Size(120, 40);
-            this.Bt_cerrar.TabIndex = 6;
+            this.Bt_cerrar.TabIndex = 10;
             this.Bt_cerrar.Text = "Cerrar";
             this.Bt_cerrar.UseVisualStyleBackColor = false;
-            this.Bt_cerrar.Click += new System.EventHandler(this.Bt_cerrar_Click_1);
+            this.Bt_cerrar.Click += new System.EventHandler(this.Bt_cerrar_Click);
             // 
             // Bt_cancelar
             // 
@@ -147,11 +127,10 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_cancelar.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.Bt_cancelar.FlatAppearance.BorderSize = 0;
             this.Bt_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_cancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Bt_cancelar.Location = new System.Drawing.Point(262, 260);
+            this.Bt_cancelar.Location = new System.Drawing.Point(250, 265);
             this.Bt_cancelar.Name = "Bt_cancelar";
             this.Bt_cancelar.Size = new System.Drawing.Size(120, 40);
-            this.Bt_cancelar.TabIndex = 7;
+            this.Bt_cancelar.TabIndex = 11;
             this.Bt_cancelar.Text = "Cancelar";
             this.Bt_cancelar.UseVisualStyleBackColor = false;
             // 
@@ -161,51 +140,61 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_guardar.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.Bt_guardar.FlatAppearance.BorderSize = 0;
             this.Bt_guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_guardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Bt_guardar.Location = new System.Drawing.Point(390, 260);
+            this.Bt_guardar.Location = new System.Drawing.Point(380, 265);
             this.Bt_guardar.Name = "Bt_guardar";
             this.Bt_guardar.Size = new System.Drawing.Size(120, 40);
-            this.Bt_guardar.TabIndex = 8;
+            this.Bt_guardar.TabIndex = 12;
             this.Bt_guardar.Text = "Guardar";
             this.Bt_guardar.UseVisualStyleBackColor = false;
             // 
-            // Formulario_cuadrarinventario
+            // label1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(20, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(55, 18);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "Buscar";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox1.Location = new System.Drawing.Point(80, 20);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(418, 22);
+            this.textBox1.TabIndex = 14;
+            // 
+            // Formulario_ingresarllegada
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
             this.ClientSize = new System.Drawing.Size(600, 400);
-            this.ControlBox = false;
-            this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.panel1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(600, 400);
-            this.Name = "Formulario_cuadrarinventario";
-            this.ShowIcon = false;
-            this.ShowInTaskbar = false;
-            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "Formulario_ingresarllegada";
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Bt_guardar;
         private System.Windows.Forms.Button Bt_cancelar;
         private System.Windows.Forms.Button Bt_cerrar;
