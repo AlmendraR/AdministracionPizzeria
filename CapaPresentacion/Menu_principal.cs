@@ -54,7 +54,7 @@ namespace AdministracionPizzeria.CapaPresentacion
 
         private void Bt_buscarcuadre_Click(object sender, EventArgs e)
         {
-            Abrirformularios(new Formulario_buscarcuadre());
+            Abrirformularios(new Formulario_mostrarcuadres());
             Ocultarsubmenu();
         }
 
@@ -71,7 +71,7 @@ namespace AdministracionPizzeria.CapaPresentacion
 
         private void Bt_ingresarllegada_Click(object sender, EventArgs e)
         {
-            Abrirformularios(new Formulario_ingresarllegadainsumo());
+            Abrirformularios(new Formulario_ingresarllegada());
             Ocultarsubmenu();
         }
 
@@ -92,14 +92,6 @@ namespace AdministracionPizzeria.CapaPresentacion
         private void Bt_buscarsalida_Click(object sender, EventArgs e)
         {
             Abrirformularios(new Formulario_buscarsalidainsumo());
-            Ocultarsubmenu();
-        }
-
-        private void Bt_eliminarinsumo_Click(object sender, EventArgs e)
-        {
-            //
-            //
-            //
             Ocultarsubmenu();
         }
 
@@ -129,20 +121,27 @@ namespace AdministracionPizzeria.CapaPresentacion
 
         private void Bt_informepersonal_Click(object sender, EventArgs e)
         {
-            //
-            //
-            //
+            Abrirformularios(new Formulario_resumenpersonal());
             Ocultarsubmenu();
         }
 
+
+        Formulario_login login;
         private void Button1_Click(object sender, EventArgs e)
         {
-            Formulario_login Login = new Formulario_login
+            if (login == null)
             {
-                MdiParent = this.MdiParent
-            };
-            Login.Show();
+                login = new Formulario_login();
+                MdiParent = this.MdiParent;
+                login.Show();
+            }
             Ocultarsubmenu();
+        }
+
+        private void Bt_cambiarusuariosuperiorFormClosed(object sender, EventArgs e)
+        {
+            login = null;
+
         }
 
         private void Button3_Click(object sender, EventArgs e)
@@ -204,6 +203,77 @@ namespace AdministracionPizzeria.CapaPresentacion
         private void Bt_resumeninventario_Click(object sender, EventArgs e)
         {
             Abrirformularios(new Formulario_resumeninventario());
+            Ocultarsubmenu();
+        }
+
+        private void Bt_agregarproducto_Click(object sender, EventArgs e)
+        {
+            Abrirformularios(new Formulario_agregarproducto());
+            Ocultarsubmenu();
+        }
+
+        private void Bt_cambiarusuariolateral_Click(object sender, EventArgs e)
+        {
+            Ocultarsubmenu();
+        }
+
+        private void Bt_cuadrarinventario_Click(object sender, EventArgs e)
+        {
+            Abrirformularios(new Formulario_cuadrarinventario());
+            Ocultarsubmenu();
+        }
+
+        private void Bt_crearusuario_Click(object sender, EventArgs e)
+        {
+            Abrirformularios(new Formulario_crearusuario());
+            Ocultarsubmenu();
+        }
+
+        private void Bt_eliminarproducto_Click(object sender, EventArgs e)
+        {
+            Abrirformularios(new Formulario_eliminarproducto());
+            Ocultarsubmenu();
+        }
+
+        private void Bt_mostrarcuadres_Click(object sender, EventArgs e)
+        {
+            Abrirformularios(new Formulario_mostrarcuadres());
+            Ocultarsubmenu();
+        }
+
+        private void Bt_ingresarpersonal_Click(object sender, EventArgs e)
+        {
+            Abrirformularios(new Formulario_ingresarpersonal());
+            Ocultarsubmenu();
+        }
+
+        private void Bt_ingresarllegada_Click_1(object sender, EventArgs e)
+        {
+            Abrirformularios(new Formulario_ingresarllegada());
+            Ocultarsubmenu();
+        }
+
+        private void Bt_buscarllegada_Click_1(object sender, EventArgs e)
+        {
+            Abrirformularios(new Formulario_buscarllegadainsumo());
+            Ocultarsubmenu();
+        }
+
+        private void Bt_buscarsalida_Click_1(object sender, EventArgs e)
+        {
+            Abrirformularios(new Formulario_buscarsalidainsumo());
+            Ocultarsubmenu();
+        }
+
+        private void Bt_dardebaja_Click_1(object sender, EventArgs e)
+        {
+            Abrirformularios(new Formulario_dardebaja());
+            Ocultarsubmenu();
+        }
+
+        private void Bt_ingresarsalida_Click_1(object sender, EventArgs e)
+        {
+            Abrirformularios(new Formulario_ingresarsalida());
             Ocultarsubmenu();
         }
     }

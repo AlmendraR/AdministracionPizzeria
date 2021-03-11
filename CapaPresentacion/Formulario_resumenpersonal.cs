@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace AdministracionPizzeria.CapaPresentacion
 {
-    public partial class Formulario_agregarproducto : Form
+    public partial class Formulario_resumenpersonal : Form
     {
-        public Formulario_agregarproducto()
+        public Formulario_resumenpersonal()
         {
             InitializeComponent();
+        }
+
+        private void Formulario_resumenpersonal_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void Bt_cerrar_Click(object sender, EventArgs e)

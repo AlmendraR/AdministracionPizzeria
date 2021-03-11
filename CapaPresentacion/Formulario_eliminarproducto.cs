@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AdministracionPizzeria.CapaPresentacion
 {
-    public partial class Formulario_agregarproducto : Form
+    public partial class Formulario_eliminarproducto : Form
     {
-        public Formulario_agregarproducto()
+        public Formulario_eliminarproducto()
         {
             InitializeComponent();
         }

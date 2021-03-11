@@ -3,9 +3,9 @@ using System.Windows.Forms;
 
 namespace AdministracionPizzeria.CapaPresentacion
 {
-    public partial class Formulario_buscarcuadre : Form
+    public partial class Formulario_mostrarcuadres : Form
     {
-        public Formulario_buscarcuadre()
+        public Formulario_mostrarcuadres()
         {
             InitializeComponent();
         }
@@ -31,11 +31,6 @@ namespace AdministracionPizzeria.CapaPresentacion
         }
 
         private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
         {
 
         }
