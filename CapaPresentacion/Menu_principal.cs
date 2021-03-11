@@ -132,17 +132,18 @@ namespace AdministracionPizzeria.CapaPresentacion
             if (login == null)
             {
                 login = new Formulario_login();
+                login.FormClosed += new FormClosedEventHandler(CerrarLogin);
                 MdiParent = this.MdiParent;
                 login.Show();
+                login.TopMost = true;
             }
+            else
+                login.Activate();
+            
             Ocultarsubmenu();
         }
 
-        private void Bt_cambiarusuariosuperiorFormClosed(object sender, EventArgs e)
-        {
-            login = null;
 
-        }
 
         private void Button3_Click(object sender, EventArgs e)
         {
@@ -211,10 +212,26 @@ namespace AdministracionPizzeria.CapaPresentacion
             Abrirformularios(new Formulario_agregarproducto());
             Ocultarsubmenu();
         }
-
         private void Bt_cambiarusuariolateral_Click(object sender, EventArgs e)
+ 
+            {
+                if (login == null)
+                {
+                    login = new Formulario_login();
+                    login.FormClosed += new FormClosedEventHandler(CerrarLogin);
+                    MdiParent = this.MdiParent;
+                    login.Show();
+                    login.TopMost = true;
+                }
+                else
+                    login.Activate();
+
+                Ocultarsubmenu();
+            }
+        void CerrarLogin(object sender, EventArgs e)
         {
-            Ocultarsubmenu();
+            login = null;
+
         }
 
         private void Bt_cuadrarinventario_Click(object sender, EventArgs e)
