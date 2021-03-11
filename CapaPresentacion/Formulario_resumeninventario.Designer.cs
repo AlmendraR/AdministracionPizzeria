@@ -40,7 +40,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 10);
+            this.label1.Location = new System.Drawing.Point(20, 20);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(90, 18);
@@ -56,7 +56,8 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonShadow;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(20, 40);
+            this.dataGridView1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dataGridView1.Location = new System.Drawing.Point(20, 50);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(480, 200);
             this.dataGridView1.TabIndex = 1;
@@ -67,7 +68,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_cerrar.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.Bt_cerrar.FlatAppearance.BorderSize = 0;
             this.Bt_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_cerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_cerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_cerrar.ForeColor = System.Drawing.Color.Black;
             this.Bt_cerrar.Location = new System.Drawing.Point(20, 260);
             this.Bt_cerrar.Margin = new System.Windows.Forms.Padding(2);

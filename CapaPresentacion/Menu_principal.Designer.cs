@@ -153,7 +153,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_cerrarcajalateral.Dock = System.Windows.Forms.DockStyle.Top;
             this.Bt_cerrarcajalateral.FlatAppearance.BorderSize = 0;
             this.Bt_cerrarcajalateral.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_cerrarcajalateral.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_cerrarcajalateral.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_cerrarcajalateral.Location = new System.Drawing.Point(0, 120);
             this.Bt_cerrarcajalateral.Name = "Bt_cerrarcajalateral";
             this.Bt_cerrarcajalateral.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -169,7 +169,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_abrircajalateral.Dock = System.Windows.Forms.DockStyle.Top;
             this.Bt_abrircajalateral.FlatAppearance.BorderSize = 0;
             this.Bt_abrircajalateral.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_abrircajalateral.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_abrircajalateral.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_abrircajalateral.Location = new System.Drawing.Point(0, 80);
             this.Bt_abrircajalateral.Name = "Bt_abrircajalateral";
             this.Bt_abrircajalateral.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -185,7 +185,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_cambiarusuariolateral.Dock = System.Windows.Forms.DockStyle.Top;
             this.Bt_cambiarusuariolateral.FlatAppearance.BorderSize = 0;
             this.Bt_cambiarusuariolateral.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_cambiarusuariolateral.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_cambiarusuariolateral.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_cambiarusuariolateral.Location = new System.Drawing.Point(0, 40);
             this.Bt_cambiarusuariolateral.Name = "Bt_cambiarusuariolateral";
             this.Bt_cambiarusuariolateral.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -202,7 +202,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_crearusuario.Dock = System.Windows.Forms.DockStyle.Top;
             this.Bt_crearusuario.FlatAppearance.BorderSize = 0;
             this.Bt_crearusuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_crearusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_crearusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_crearusuario.Location = new System.Drawing.Point(0, 0);
             this.Bt_crearusuario.Name = "Bt_crearusuario";
             this.Bt_crearusuario.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -247,7 +247,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_dardebaja.Dock = System.Windows.Forms.DockStyle.Top;
             this.Bt_dardebaja.FlatAppearance.BorderSize = 0;
             this.Bt_dardebaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_dardebaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_dardebaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_dardebaja.Location = new System.Drawing.Point(0, 80);
             this.Bt_dardebaja.Name = "Bt_dardebaja";
             this.Bt_dardebaja.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -264,7 +264,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_ingresarpersonal.Dock = System.Windows.Forms.DockStyle.Top;
             this.Bt_ingresarpersonal.FlatAppearance.BorderSize = 0;
             this.Bt_ingresarpersonal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_ingresarpersonal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_ingresarpersonal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_ingresarpersonal.Location = new System.Drawing.Point(0, 40);
             this.Bt_ingresarpersonal.Name = "Bt_ingresarpersonal";
             this.Bt_ingresarpersonal.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -281,7 +281,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_resumenpersonal.Dock = System.Windows.Forms.DockStyle.Top;
             this.Bt_resumenpersonal.FlatAppearance.BorderSize = 0;
             this.Bt_resumenpersonal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_resumenpersonal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_resumenpersonal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_resumenpersonal.Location = new System.Drawing.Point(0, 0);
             this.Bt_resumenpersonal.Name = "Bt_resumenpersonal";
             this.Bt_resumenpersonal.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -328,7 +328,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_buscarsalida.Dock = System.Windows.Forms.DockStyle.Top;
             this.Bt_buscarsalida.FlatAppearance.BorderSize = 0;
             this.Bt_buscarsalida.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_buscarsalida.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_buscarsalida.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_buscarsalida.Location = new System.Drawing.Point(0, 120);
             this.Bt_buscarsalida.Name = "Bt_buscarsalida";
             this.Bt_buscarsalida.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -345,7 +345,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_ingresarsalida.Dock = System.Windows.Forms.DockStyle.Top;
             this.Bt_ingresarsalida.FlatAppearance.BorderSize = 0;
             this.Bt_ingresarsalida.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_ingresarsalida.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_ingresarsalida.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_ingresarsalida.Location = new System.Drawing.Point(0, 80);
             this.Bt_ingresarsalida.Name = "Bt_ingresarsalida";
             this.Bt_ingresarsalida.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -362,7 +362,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_buscarllegada.Dock = System.Windows.Forms.DockStyle.Top;
             this.Bt_buscarllegada.FlatAppearance.BorderSize = 0;
             this.Bt_buscarllegada.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_buscarllegada.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_buscarllegada.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_buscarllegada.Location = new System.Drawing.Point(0, 40);
             this.Bt_buscarllegada.Name = "Bt_buscarllegada";
             this.Bt_buscarllegada.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -379,7 +379,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_ingresarllegada.Dock = System.Windows.Forms.DockStyle.Top;
             this.Bt_ingresarllegada.FlatAppearance.BorderSize = 0;
             this.Bt_ingresarllegada.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_ingresarllegada.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_ingresarllegada.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_ingresarllegada.Location = new System.Drawing.Point(0, 0);
             this.Bt_ingresarllegada.Name = "Bt_ingresarllegada";
             this.Bt_ingresarllegada.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -423,7 +423,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_mostrarcuadres.Dock = System.Windows.Forms.DockStyle.Top;
             this.Bt_mostrarcuadres.FlatAppearance.BorderSize = 0;
             this.Bt_mostrarcuadres.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_mostrarcuadres.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_mostrarcuadres.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_mostrarcuadres.Location = new System.Drawing.Point(0, 40);
             this.Bt_mostrarcuadres.Name = "Bt_mostrarcuadres";
             this.Bt_mostrarcuadres.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -440,7 +440,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_cuadrarinventario.Dock = System.Windows.Forms.DockStyle.Top;
             this.Bt_cuadrarinventario.FlatAppearance.BorderSize = 0;
             this.Bt_cuadrarinventario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_cuadrarinventario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_cuadrarinventario.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_cuadrarinventario.Location = new System.Drawing.Point(0, 0);
             this.Bt_cuadrarinventario.Name = "Bt_cuadrarinventario";
             this.Bt_cuadrarinventario.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
@@ -474,6 +474,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_salir.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.Bt_salir.FlatAppearance.BorderSize = 0;
             this.Bt_salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Bt_salir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_salir.Location = new System.Drawing.Point(0, 675);
             this.Bt_salir.Name = "Bt_salir";
             this.Bt_salir.Size = new System.Drawing.Size(250, 45);
@@ -500,7 +501,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_eliminarproducto.Dock = System.Windows.Forms.DockStyle.Top;
             this.Bt_eliminarproducto.FlatAppearance.BorderSize = 0;
             this.Bt_eliminarproducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_eliminarproducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_eliminarproducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_eliminarproducto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
             this.Bt_eliminarproducto.Location = new System.Drawing.Point(0, 80);
             this.Bt_eliminarproducto.Name = "Bt_eliminarproducto";
@@ -518,7 +519,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_agregarproducto.Dock = System.Windows.Forms.DockStyle.Top;
             this.Bt_agregarproducto.FlatAppearance.BorderSize = 0;
             this.Bt_agregarproducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_agregarproducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_agregarproducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_agregarproducto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
             this.Bt_agregarproducto.Location = new System.Drawing.Point(0, 40);
             this.Bt_agregarproducto.Name = "Bt_agregarproducto";
@@ -536,7 +537,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_resumeninventario.Dock = System.Windows.Forms.DockStyle.Top;
             this.Bt_resumeninventario.FlatAppearance.BorderSize = 0;
             this.Bt_resumeninventario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_resumeninventario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_resumeninventario.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_resumeninventario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
             this.Bt_resumeninventario.Location = new System.Drawing.Point(0, 0);
             this.Bt_resumeninventario.Name = "Bt_resumeninventario";
@@ -611,21 +612,21 @@ namespace AdministracionPizzeria.CapaPresentacion
             // 
             this.panel_fechayhora.Controls.Add(this.mostrar_horayfecha);
             this.panel_fechayhora.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel_fechayhora.Location = new System.Drawing.Point(540, 16);
+            this.panel_fechayhora.Location = new System.Drawing.Point(540, 1);
             this.panel_fechayhora.Name = "panel_fechayhora";
-            this.panel_fechayhora.Size = new System.Drawing.Size(490, 21);
+            this.panel_fechayhora.Size = new System.Drawing.Size(490, 25);
             this.panel_fechayhora.TabIndex = 2;
             // 
             // mostrar_horayfecha
             // 
             this.mostrar_horayfecha.AutoSize = true;
             this.mostrar_horayfecha.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mostrar_horayfecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mostrar_horayfecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mostrar_horayfecha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
             this.mostrar_horayfecha.Location = new System.Drawing.Point(0, 0);
             this.mostrar_horayfecha.Margin = new System.Windows.Forms.Padding(0, 5, 0, 0);
             this.mostrar_horayfecha.Name = "mostrar_horayfecha";
-            this.mostrar_horayfecha.Size = new System.Drawing.Size(49, 16);
+            this.mostrar_horayfecha.Size = new System.Drawing.Size(53, 18);
             this.mostrar_horayfecha.TabIndex = 0;
             this.mostrar_horayfecha.Text = "Fecha:";
             // 
@@ -634,20 +635,20 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.panel_cargousuario.Controls.Add(this.mostrar_cargousuario);
             this.panel_cargousuario.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel_cargousuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(207)))), ((int)(((byte)(178)))));
-            this.panel_cargousuario.Location = new System.Drawing.Point(540, 37);
+            this.panel_cargousuario.Location = new System.Drawing.Point(540, 26);
             this.panel_cargousuario.Name = "panel_cargousuario";
-            this.panel_cargousuario.Size = new System.Drawing.Size(490, 21);
+            this.panel_cargousuario.Size = new System.Drawing.Size(490, 25);
             this.panel_cargousuario.TabIndex = 12;
             // 
             // mostrar_cargousuario
             // 
             this.mostrar_cargousuario.AutoSize = true;
             this.mostrar_cargousuario.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mostrar_cargousuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mostrar_cargousuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mostrar_cargousuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
             this.mostrar_cargousuario.Location = new System.Drawing.Point(0, 0);
             this.mostrar_cargousuario.Name = "mostrar_cargousuario";
-            this.mostrar_cargousuario.Size = new System.Drawing.Size(48, 16);
+            this.mostrar_cargousuario.Size = new System.Drawing.Size(53, 18);
             this.mostrar_cargousuario.TabIndex = 0;
             this.mostrar_cargousuario.Text = "Cargo:";
             // 
@@ -655,20 +656,20 @@ namespace AdministracionPizzeria.CapaPresentacion
             // 
             this.panel_nombreusuario.Controls.Add(this.mostrar_nombreusuario);
             this.panel_nombreusuario.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel_nombreusuario.Location = new System.Drawing.Point(540, 58);
+            this.panel_nombreusuario.Location = new System.Drawing.Point(540, 51);
             this.panel_nombreusuario.Name = "panel_nombreusuario";
-            this.panel_nombreusuario.Size = new System.Drawing.Size(490, 21);
+            this.panel_nombreusuario.Size = new System.Drawing.Size(490, 25);
             this.panel_nombreusuario.TabIndex = 13;
             // 
             // mostrar_nombreusuario
             // 
             this.mostrar_nombreusuario.AutoSize = true;
             this.mostrar_nombreusuario.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mostrar_nombreusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mostrar_nombreusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mostrar_nombreusuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
             this.mostrar_nombreusuario.Location = new System.Drawing.Point(0, 0);
             this.mostrar_nombreusuario.Name = "mostrar_nombreusuario";
-            this.mostrar_nombreusuario.Size = new System.Drawing.Size(58, 16);
+            this.mostrar_nombreusuario.Size = new System.Drawing.Size(64, 18);
             this.mostrar_nombreusuario.TabIndex = 0;
             this.mostrar_nombreusuario.Text = "Usuario:";
             // 
@@ -676,20 +677,20 @@ namespace AdministracionPizzeria.CapaPresentacion
             // 
             this.panel_estadocaja.Controls.Add(this.mostrar_estadocaja);
             this.panel_estadocaja.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel_estadocaja.Location = new System.Drawing.Point(540, 79);
+            this.panel_estadocaja.Location = new System.Drawing.Point(540, 76);
             this.panel_estadocaja.Name = "panel_estadocaja";
-            this.panel_estadocaja.Size = new System.Drawing.Size(490, 21);
+            this.panel_estadocaja.Size = new System.Drawing.Size(490, 24);
             this.panel_estadocaja.TabIndex = 14;
             // 
             // mostrar_estadocaja
             // 
             this.mostrar_estadocaja.AutoSize = true;
             this.mostrar_estadocaja.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mostrar_estadocaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mostrar_estadocaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mostrar_estadocaja.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
             this.mostrar_estadocaja.Location = new System.Drawing.Point(0, 0);
             this.mostrar_estadocaja.Name = "mostrar_estadocaja";
-            this.mostrar_estadocaja.Size = new System.Drawing.Size(102, 16);
+            this.mostrar_estadocaja.Size = new System.Drawing.Size(110, 18);
             this.mostrar_estadocaja.TabIndex = 0;
             this.mostrar_estadocaja.Text = "Estado de caja:";
             // 
