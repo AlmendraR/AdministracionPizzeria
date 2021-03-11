@@ -42,18 +42,19 @@ namespace AdministracionPizzeria.CapaPresentacion
             // 
             // cb_usuariologin
             // 
+            this.cb_usuariologin.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cb_usuariologin.FormattingEnabled = true;
             this.cb_usuariologin.Items.AddRange(new object[] {
             "Admin"});
             this.cb_usuariologin.Location = new System.Drawing.Point(20, 20);
             this.cb_usuariologin.Name = "cb_usuariologin";
-            this.cb_usuariologin.Size = new System.Drawing.Size(220, 21);
+            this.cb_usuariologin.Size = new System.Drawing.Size(220, 26);
             this.cb_usuariologin.TabIndex = 0;
             this.cb_usuariologin.Text = "Nombre de Usuario";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(18)))), ((int)(((byte)(18)))));
             this.panel1.Controls.Add(this.tb_contraseñalogin);
             this.panel1.Controls.Add(this.cb_usuariologin);
             this.panel1.Location = new System.Drawing.Point(20, 170);
@@ -63,9 +64,10 @@ namespace AdministracionPizzeria.CapaPresentacion
             // 
             // tb_contraseñalogin
             // 
+            this.tb_contraseñalogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tb_contraseñalogin.Location = new System.Drawing.Point(20, 60);
             this.tb_contraseñalogin.Name = "tb_contraseñalogin";
-            this.tb_contraseñalogin.Size = new System.Drawing.Size(220, 20);
+            this.tb_contraseñalogin.Size = new System.Drawing.Size(220, 24);
             this.tb_contraseñalogin.TabIndex = 2;
             this.tb_contraseñalogin.Text = "Contraseña";
             this.tb_contraseñalogin.Click += new System.EventHandler(this.tb_contraseñalogin_Click);
@@ -85,7 +87,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -104,13 +106,20 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(8)))), ((int)(((byte)(8)))));
             this.ClientSize = new System.Drawing.Size(300, 400);
+            this.ControlBox = false;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Formulario_login";
+            this.Opacity = 0.98D;
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

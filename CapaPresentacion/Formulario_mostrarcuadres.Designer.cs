@@ -32,6 +32,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Bt_cerrar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -44,11 +45,12 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonShadow;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(20, 41);
+            this.dataGridView1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dataGridView1.Location = new System.Drawing.Point(20, 50);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(480, 195);
+            this.dataGridView1.Size = new System.Drawing.Size(480, 200);
             this.dataGridView1.TabIndex = 6;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -59,6 +61,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Bt_cerrar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.Bt_cerrar.FlatAppearance.BorderSize = 0;
             this.Bt_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Bt_cerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bt_cerrar.Location = new System.Drawing.Point(20, 260);
             this.Bt_cerrar.Margin = new System.Windows.Forms.Padding(4);
             this.Bt_cerrar.Name = "Bt_cerrar";
@@ -74,12 +77,23 @@ namespace AdministracionPizzeria.CapaPresentacion
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(203)))), ((int)(((byte)(117)))));
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.Bt_cerrar);
             this.panel1.Controls.Add(this.dataGridView1);
             this.panel1.Location = new System.Drawing.Point(40, 40);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(520, 320);
             this.panel1.TabIndex = 8;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(20, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(142, 18);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Cuadres Realizados";
             // 
             // Formulario_mostrarcuadres
             // 
@@ -102,6 +116,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Text = "Formulario_buscarcuadre";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -110,5 +125,6 @@ namespace AdministracionPizzeria.CapaPresentacion
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button Bt_cerrar;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
     }
 }

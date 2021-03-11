@@ -34,7 +34,6 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
             this.Bt_cerrar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -45,11 +44,11 @@ namespace AdministracionPizzeria.CapaPresentacion
             // 
             this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(80, 50);
+            this.comboBox1.Location = new System.Drawing.Point(86, 47);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(410, 24);
+            this.comboBox1.Size = new System.Drawing.Size(414, 26);
             this.comboBox1.TabIndex = 0;
             // 
             // dateTimePicker1
@@ -57,29 +56,29 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.dateTimePicker1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(80, 20);
+            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Location = new System.Drawing.Point(86, 15);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(410, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(414, 24);
             this.dateTimePicker1.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(20, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 16);
+            this.label1.Size = new System.Drawing.Size(49, 18);
             this.label1.TabIndex = 2;
             this.label1.Text = "Fecha";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(20, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 16);
+            this.label2.Size = new System.Drawing.Size(60, 18);
             this.label2.TabIndex = 3;
             this.label2.Text = "Usuario";
             // 
@@ -91,6 +90,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonShadow;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dataGridView1.Location = new System.Drawing.Point(20, 80);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
@@ -98,30 +98,16 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.dataGridView1.Size = new System.Drawing.Size(480, 170);
             this.dataGridView1.TabIndex = 4;
             // 
-            // button1
-            // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(409, 268);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 40);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Cancelar";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
             // Bt_cerrar
             // 
             this.Bt_cerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.Bt_cerrar.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.Bt_cerrar.FlatAppearance.BorderSize = 0;
             this.Bt_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bt_cerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Bt_cerrar.Location = new System.Drawing.Point(19, 268);
+            this.Bt_cerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bt_cerrar.Location = new System.Drawing.Point(20, 260);
             this.Bt_cerrar.Name = "Bt_cerrar";
-            this.Bt_cerrar.Size = new System.Drawing.Size(90, 40);
+            this.Bt_cerrar.Size = new System.Drawing.Size(120, 40);
             this.Bt_cerrar.TabIndex = 6;
             this.Bt_cerrar.Text = "Cerrar";
             this.Bt_cerrar.UseVisualStyleBackColor = false;
@@ -133,7 +119,6 @@ namespace AdministracionPizzeria.CapaPresentacion
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(203)))), ((int)(((byte)(117)))));
-            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.Bt_cerrar);
             this.panel1.Controls.Add(this.dataGridView1);
             this.panel1.Controls.Add(this.comboBox1);
@@ -170,7 +155,6 @@ namespace AdministracionPizzeria.CapaPresentacion
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button Bt_cerrar;
         private System.Windows.Forms.Panel panel1;
     }
