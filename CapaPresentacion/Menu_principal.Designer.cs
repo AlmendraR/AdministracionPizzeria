@@ -809,6 +809,7 @@ namespace AdministracionPizzeria.CapaPresentacion
             this.Name = "Menu_principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Menu_principal_Load);
             this.menu_lateral.ResumeLayout(false);
             this.smenu_administrar.ResumeLayout(false);
             this.smenu_personal.ResumeLayout(false);
